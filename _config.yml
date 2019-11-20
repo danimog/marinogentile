@@ -1,0 +1,5 @@
+baseurl: ""
+
+markdown: kramdown 
+
+exclude: esempio
