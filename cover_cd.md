@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: page
 ---
 
 <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
