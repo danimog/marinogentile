@@ -12,6 +12,7 @@ h1{
 	color: green;
 }
 
+/*
 .sfondo{
 	width: 100%; height: 100%; top: 0; left: 0;
 	background: url(../images/sfondo.png) no-repeat center top; position: fixed; z-index: -1;
@@ -20,7 +21,7 @@ h1{
 	-o-background-size: cover;
 	background-size: cover;
 }
-
+*/
 .sfondo-titoli{
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
@@ -65,10 +66,81 @@ h1{
 .circle-img{
 	margin: .5em auto;
   	border-radius: 50%;
+ 	min-width: 75px;
+ 	min-height: 75px;
   	max-width: 150px;
   	max-height: 150px;
 }
 
 .img-menu{
 	margin: 1em;
+}
+
+/**
+* Breakpoint utili alla modifica delle immagini
+*/
+
+// Extra small devices (portrait phones, less than 576px)
+@media (max-width: 575.98px) { 
+	.sfondo{
+		width: 100%; min-height:100%; top: 0; left: 0;
+		background: url(../images/sfondi/homePage_XS.png) no-repeat center top; position: fixed; z-index: -1;
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		background-size: cover;
+	}
+}
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) and (max-width: 767.98px) {
+	.sfondo{
+		width: 100%; min-height:100%; top: 0; left: 0;
+		background: url(../images/sfondi/homePage_S.png) no-repeat center top; position: fixed; z-index: -1;
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		background-size: cover;
+	}
+}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) and (max-width: 991.98px) {
+	.sfondo{
+		width: 100%; min-height:100%; top: 0; left: 0;
+		background: url(../images/sfondi/homePage_M.png) no-repeat center top; position: fixed; z-index: -1;
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		background-size: cover;
+	}
+}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) and (max-width: 1199.98px) {
+	.sfondo{
+		width: 100%; min-height:100%; top: 0; left: 0;
+		background: url(../images/sfondi/homePage_L.png) no-repeat center top; position: fixed; z-index: -1;
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		background-size: cover;
+
+	}
+
+}
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) {
+	.sfondo{
+		width: 100%; min-height:100%; top: 0; left: 0;
+		background: url(../images/sfondi/homePage_XL.png) no-repeat center top; position: fixed; z-index: -1;
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		background-size: cover;
+
+	}
+
+	
 }
