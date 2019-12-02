@@ -1,46 +1,87 @@
 ---
-layout: page
+layout: picture
 title: Scout
 ---
 <h2>Scout</h2>
-<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-  <ol class="carousel-indicators">
-    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-    <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
-    <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
-  </ol>
-  <div class="carousel-inner">
-    <div class="carousel-item active">
-      <img src="{{site.baseurl}}/assets/images/lavori/01_varie_scout_golfo_paradiso.jpg" class="d-block w-100" alt="scout golfo paradiso">
-    </div>
-    <div class="carousel-item">
-      <img src="{{site.baseurl}}/assets/images/lavori/02_varie_scout_golfo_paradiso.jpg" class="d-block w-100" alt="scout golfo paradiso">
-    </div>
 
-    <div class="carousel-item">
-      <img src="{{site.baseurl}}/assets/images/lavori/03_varie_scout_golfo_paradiso.jpg" class="d-block w-100" alt="scout golfo paradiso">
-    </div>
+<!--
+<ul> 
+{% for imgg in site.data.images %}
+  <li> <img src="{{site.baseurl}}/assets/images/lavori/{{imgg.url}}.jpg" alt="{{imgg.name}}" /></li>
+{% endfor %}
+</ul>
 
-    <div class="carousel-item">
-      <img src="{{site.baseurl}}/assets/images/lavori/04_varie_scout_golfo_paradiso.jpg" class="d-block w-100" alt="scout golfo paradiso">
+<div class="row">
+{% for imgg in site.data.images %}
+  <div class="col-sm-4">
+    <div class="card">
+    <img class="card-img-top img-thumbnail" src="{{site.baseurl}}/assets/images/lavori/{{imgg.url}}.jpg" alt="{{imgg.name}}">
+      <div class="card-body">
+      </div>
     </div>
-
-    <div class="carousel-item">
-      <img src="{{site.baseurl}}/assets/images/lavori/05_varie_scout_golfo_paradiso.jpg" class="d-block w-100" alt="scout golfo paradiso">
-    </div>
-
   </div>
+{% endfor %}
+  </div>
+-->
 
-  <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="sr-only">Previous</span>
-  </a>
-  <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="sr-only">Next</span>
-  </a>
+<div class="row">
+  
+{% for item in site.data.images %}
+
+        <figure class="col-md-3">
+
+            <img src="{{site.baseurl}}/assets/images/lavori/{{item.url}}.jpg" alt="{{item.name}}" data-titolo="{{ item.name }}" data-nome="{{item.descrizione}}" class="img-fluid img-thumbnail" data-toggle="modal" data-target="#exampleModal" data-whatever="{{site.baseurl}}/assets/images/lavori/{{item.url}}.jpg">
+          
+          <figcaption>
+            {{ item.name }}
+          </figcaption>
+        </figure>
+
+    <!--button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal" data-whatever="{{site.baseurl}}/assets/images/lavori/{{item.url}}.jpg">Apri foto: {{ item.url }}</button-->
+
+  {% endfor %}
 
 </div>
 
+<!-- DEFINIZIONE DELLA FINESTA MODALE -->
+
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title text-center" id="exampleModalLabel">Titolo Foto</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body text-center">
+        <img src="" style="width: 100%; height: auto;" />
+        <p></p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+
+
+<!-- SCRIPT FINESTRA MODALE -->
+<script>
+
+//$(document).on('show.bs.modal','#exampleModal', function (event) {  
+$('#exampleModal').on('show.bs.modal', function (event) {
+  var button = $(event.relatedTarget) // Button that triggered the modal
+  var recipient = button.data('whatever') // Extract info from data-* attributes
+  var nome = button.data('nome')
+  var titolo = button.data('titolo')
+  // If necessary, you could initiate an AJAX request here (and then do the updating in a callback).
+  // Update the modal's content. We'll use jQuery here, but you could use a data binding library or other methods instead.
+  var modal = $(this)
+  modal.find('.modal-title').text(titolo)
+  modal.find('.modal-body p').text(nome)
+  modal.find('.modal-body img').attr('src', recipient)
+})
+</script>

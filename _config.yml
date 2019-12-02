@@ -3,3 +3,6 @@ baseurl: "/marinogentile"
 markdown: kramdown 
 
 exclude: esempio
+
+collections:
+  immagini:
