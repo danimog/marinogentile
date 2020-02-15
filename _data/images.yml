@@ -1,25 +1,25 @@
 - name : Scout Golfo Paradiso 1
-  url : 01_varie_scout_golfo_paradiso
+  url : scout/01_varie_scout_golfo_paradiso
   descrizione : qui va la descrizione della foto se necessario
   category : scout
 
 - name : Scout Golfo Paradiso 2
-  url : 02_varie_scout_golfo_paradiso
+  url : scout/02_varie_scout_golfo_paradiso
   descrizione : qui va la descrizione della foto se necessario
   category : scout
  
 - name : Scout Golfo Paradiso 3
-  url : 03_varie_scout_golfo_paradiso
+  url : scout/03_varie_scout_golfo_paradiso
   descrizione : qui va la descrizione della foto se necessario
   category : scout
  
 - name : Scout Golfo Paradiso 4
-  url : 04_varie_scout_golfo_paradiso
+  url : scout/04_varie_scout_golfo_paradiso
   descrizione : qui va la descrizione della foto se necessario
   category : scout
  
 - name : Scout Golfo Paradiso 5
-  url : 05_varie_scout_golfo_paradiso
+  url : scout/05_varie_scout_golfo_paradiso
   descrizione : qui va la descrizione della foto se necessario
   category : scout
  
