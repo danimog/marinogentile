@@ -1,9 +1,12 @@
+---
+layout: page
+---
 Marino Gentile
-Passo Sepozzo Inferiore 5
-16030 Avegno (GE)
-abitazione-studio tel. 0185 781070
-cell. 349 4709843
-e-mail: marino_gentile@libero.it
+- Passo Sepozzo Inferiore 5
+- 16030 Avegno (GE)
+- abitazione-studio tel. 0185 781070
+- cell. 349 4709843
+- e-mail: marino_gentile@libero.it
 
 Sono nato a Genova il 12 aprile 1968, sin da piccolissimo ho coltivato la mia passione per il disegno, la pittura, l’arte in tutte le sue forme e fin dalle scuola elementare ho avuto la fortuna di trovare insegnanti che hanno incoraggiato questa mia passione, portandomi anche a partecipare e vincere al mio primo concorso di illustrazione in quinta elementare.
 Crescendo ho incrementato le mie capacità artistiche-tecniche studiando, prima al liceo artistico "Nicolò Barabino" di Genova (dove ho conseguito il diploma nel 1986 con la votazione di 60/60), poi iscrivendomi alla facoltà di architettura di Genova, dove mi sono laureato nel 1998 con una tesi di schedatura e ricerca storica delle logge medioevali del centro storico di Genova.
