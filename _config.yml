@@ -1,8 +1,7 @@
-baseurl: "marinogentile/"
+baseurl: ""
 
 markdown: kramdown 
 
-exclude: esempio
 
 collections:
   immagini:
