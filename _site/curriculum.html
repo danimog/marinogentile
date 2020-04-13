@@ -7,6 +7,9 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!-- Font Awesome JS -->
+    <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/solid.js" integrity="sha384-tzzSw1/Vo+0N5UhStP3bvwWPq+uvzCMfrN1fEFe+xBmv1C/AtVX5K0uZtmcHitFZ" crossorigin="anonymous"></script>
+    <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/fontawesome.js" integrity="sha384-6OIrr52G08NpOFSZdxxz1xdNSndlD4vdcf/q2myIUVO0VsqaGHJsB0RaBE01VTOY" crossorigin="anonymous"></script>
 
     <link href="https://fonts.googleapis.com/css?family=Dancing+Script|Montserrat&display=swap" rel="stylesheet">
 
@@ -15,14 +18,62 @@
     <title></title>
   </head>
   <body>
-    <div class="container">
-        <div class="text-center header">
+    <div class="container-fluid m-0 p-0" style="background: url('/assets/images/sfondobn.png') no-repeat left top; z-index: -1;">
+       <!--  <div class="container">
+            <div class="text-center header">
 	<a href="/">Marino Gentile - Illustratore</a>
 </div>
-    </div>
+        </div> -->
 
-    <div class="container">      
-        <p>Marino Gentile</p>
+        <div class="wrapper">
+            <!-- Sidebar  -->
+            <nav id="sidebar">
+                <div class="sidebar-header">
+
+                    <h1 class="text-center mt-2 mb-3"><a href="/">Marino Gentile Illustratore</a></h1>
+                    
+                    <img src="/assets/images/fotomarino.png" class="img-thumbnail img-fluid mb-3" > 
+                </div>
+                <div class="my-left-menu">
+                
+                    <ul class="list-unstyled components">
+                        
+                        <li>
+                            <a class="d-none d-md-block" href="#"><i class="fas fa-palette"></i> Disegno</a>
+                            <a class="d-block d-md-none text-center" href="#"><i class="fas fa-palette disegno"></i></a>
+                        </li>
+                        <li>
+                            <a class="d-none d-md-block" href="#"><i class="fas fa-paint-brush"></i> Pittura</a>
+                            <a class="d-block d-md-none text-center" href="#"><i class="fas fa-paint-brush"></i></a>
+                        </li>
+                        <li>
+                            <a class="d-none d-md-block" href="#"><i class="fas fa-tint"></i> Fumetto</a>
+                            <a class="d-block d-md-none text-center" href="#"><i class="fas fa-tint"></i></a>
+                        </li>
+                        <li>
+                            <a class="d-none d-md-block" href="#"><i class="fas fa-pencil-alt"></i> Illustrazione</a>
+                            <a class="d-block d-md-none text-center" href="#"><i class="fas fa-pencil-alt"></i></a>
+                        </li>
+
+                        <li class="mt-3">
+                            <a class="d-none d-md-block" href="#"><i class="fas fa-envelope"></i> Contattami</a>
+                            <a class="d-block d-md-none text-center" href="#"><i class="fas fa-envelope"></i></a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        
+            <div id="content">
+
+                <nav class="navbar transparent d-block d-md-none">
+                    <button type="button" id="sidebarCollapse" class="btn btn-outline-secondary">
+                        <i class="fas fa-align-justify"></i>
+                        <span></span>
+                    </button>
+                </nav>
+
+                <div class="container">      
+                    <p>Marino Gentile</p>
 <ul>
   <li>Passo Sepozzo Inferiore 5</li>
   <li>16030 Avegno (GE)</li>
@@ -31,19 +82,19 @@
   <li>e-mail: marino_gentile@libero.it</li>
 </ul>
 
-<p>Sono nato a Genova il 12 aprile 1968, sin da piccolissimo ho coltivato la mia passione per il disegno, la pittura, l’arte in tutte le sue forme e fin dalle scuola elementare ho avuto la fortuna di trovare insegnanti che hanno incoraggiato questa mia passione, portandomi anche a partecipare e vincere al mio primo concorso di illustrazione in quinta elementare.
-Crescendo ho incrementato le mie capacità artistiche-tecniche studiando, prima al liceo artistico “Nicolò Barabino” di Genova (dove ho conseguito il diploma nel 1986 con la votazione di 60/60), poi iscrivendomi alla facoltà di architettura di Genova, dove mi sono laureato nel 1998 con una tesi di schedatura e ricerca storica delle logge medioevali del centro storico di Genova.
+<p>Sono nato a Genova il 12 aprile 1968, sin da piccolissimo ho coltivato la mia passione per il disegno, la pittura, l’arte in tutte le sue forme e fin dalle scuola elementare ho avuto la fortuna di trovare insegnanti che hanno incoraggiato questa mia passione, portandomi anche a partecipare e vincere al mio primo concorso di illustrazione in quinta elementare. Crescendo ho incrementato le mie capacità artistiche-tecniche studiando, prima al liceo artistico “Nicolò Barabino” di Genova (dove ho conseguito il diploma nel 1986 con la votazione di 60/60), poi iscrivendomi alla facoltà di architettura di Genova, dove mi sono laureato nel 1998 con una tesi di schedatura e ricerca storica delle logge medioevali del centro storico di Genova.
 Al termine del liceo ho potuto beneficiare di una borsa di studio e lavoro, assegnata dal Comune di Genova agli studenti più meritevoli, per realizzare alcuni disegni a carattere didattico e agevolare le visite delle scolaresche ai
 musei genovesi di Palazzo Rosso, Palazzo Bianco, museo del Risorgimento, museo archeologico di Pegli, e pubblicate nel 1989 dalla SAGEP di Genova nella raccolta “Oggi andiamo al museo”.
 Durante l’università (oltre ad aver fatto vari lavori saltuari) ho lavorato per circa un anno e mezzo presso l’ufficio prevenzione incendi del comune di Genova e verso la fine del 1993 ho iniziato a ”bussare” alla porta della
 Disney di Milano facendo una serie di incontri col maestro Giovan Battista Carpi per poter apprendere lo stile Disneyano. Dopo vari incontri, piuttosto diluiti nel tempo, e dopo aver svolto il servizio militare, sono riuscito ad
-accedere al corso di illustrazione 1996-97 della Accademia Disney di Milano sotto la direzione di Roberto Santillo.</p>
+accedere al corso di illustrazione 1996-97 della Accademia Disney di Milano sotto la direzione di Roberto Santillo.
+L’esperienza di questo corso, tenuto da Andrea Greppi, è stata per la mia formazione tecnica e umana molto gratificante e determinante per poter iniziare un percorso lavorativo in ambito Disney e non solo.
+Al termine dell’Accademia ho vinto il concorso indetto dall’Accademia medesima dal titolo “l’Arte interpretata dai personaggi Disney”, al quale parteciparono, oltre agli studenti dei vari corsi, anche numerosi artisti Disney già affermati, con un opera realizzata ad olio su tela che riproponeva una versione umoristica del quadro seicentesco di Bernardo Strozzi “la cuciniera”, con Paperino spennato dalla cuoca medesima.</p>
 
-<p>L’esperienza di questo corso, tenuto da Andrea Greppi, è stata per la mia formazione tecnica e umana molto gratificante e determinante per poter iniziare un percorso lavorativo in ambito Disney e non solo.
-Al termine dell’Accademia ho vinto il concorso indetto dall’Accademia medesima dal titolo “l’Arte interpretata dai personaggi Disney”, al quale parteciparono, oltre agli studenti dei vari corsi, anche numerosi artisti Disney già affermati, con un opera realizzata ad olio su tela che riproponeva una versione umoristica del quadro seicentesco di Bernardo Strozzi “la cuciniera”, con Paperino spennato dalla cuoca medesima.
-Dal 1998 conseguendo la laurea in architettura, e l’abilitazione alla professione di architetto, ho avuto modo di svolgere, per i primi tempi, anche alcuni piccoli lavori di progettazione per ristrutturazioni e recuperi edilizi,
-nonchè di progettare, seguire e intervenire direttamente nel restauro/ristrutturazione (assieme a mia moglie) dei due edifici rurali che sono diventate, in due periodi successivi della nostra vita, le nostre abitazioni.
-Il mio ambito di attività lavorativa si è però concentrato principalmente sul disegno e l’illustrazione realizzando numerosissime illustrazioni interne di libri, copertine, posters, fumetti, coloring books, puzzles, ecc. Lavori
+<p>Dal 1998 conseguendo la laurea in architettura, e l’abilitazione alla professione di architetto, ho avuto modo di svolgere, per i primi tempi, anche alcuni piccoli lavori di progettazione per ristrutturazioni e recuperi edilizi,
+nonchè di progettare, seguire e intervenire direttamente nel restauro/ristrutturazione (assieme a mia moglie) dei due edifici rurali che sono diventate, in due periodi successivi della nostra vita, le nostre abitazioni.</p>
+
+<p>Il mio ambito di attività lavorativa si è però concentrato principalmente sul disegno e l’illustrazione realizzando numerosissime illustrazioni interne di libri, copertine, posters, fumetti, coloring books, puzzles, ecc. Lavori
 aventi come soggetto tutte le fiabe classiche Disney, e le loro eventuali declinazioni, e tutti i personaggi dei films di animazione Disney/Pixar , da Biancaneve al più recente Frozen II.</p>
 
 <p>Lavori commissionati da:</p>
@@ -66,23 +117,29 @@ E poi varie altre commissioni per pubblicità, illustrazioni di libri, o studi p
 lavoro, soprattuto in ambito Disney, molto separata e di specializzazione per ciascuna fase, mi sono sempre più dedicato alla realizzazione delle parti di progettazione dell’illustrazione/fumetto ( concept, rough) e a quella della
 pulizia e definizione delle immagini a matita (clean-up), lasciando più spesso ad altri le fasi successive di inchiostrazione e colorazione.
 Nonostante la mia formazione, e gran parte della mia professione, si siano basate sulle tecniche artistiche tradizionali di pittura e disegno, negli ultimi anni, prendendo sempre più piede l’uso del computer, ho fatto cadere
-le mie perplessità e resistenze sull’uso delle tecniche digitali e mi sono avvicinato sempre più all’uso della tavoletta grafica e del display con penna interattiva, realizzando i miei disegni mediante i vari software grafici che ormai riescono a riprodurre tecniche, effetti e sensazioni visive quasi indistinguibili da quelle tradizionali e con numerosi vantaggi pratici in più…ma certamente perdendo un contatto con i materiali veri che spesso mi trovo a rimpiangere.
-Essendo molto affascinato dal genere fantasy e fiabesco, ma anche da altri mondi come la natura, gli animali, la storia antica, l’archeologia, quando trovo un momento di respiro dal lavoro mi capita di realizzare qualche
-schizzo o disegno, finora soprattutto per diletto personale, e provare a calarmi in questi mondi.
-Ho sempre la speranza che anche questa mia parte di interessi possa trovare maggior spazio e riscontro anche nel mondo lavorativo…
+le mie perplessità e resistenze sull’uso delle tecniche digitali e mi sono avvicinato sempre più all’uso della tavoletta grafica e del display con penna interattiva, realizzando i miei disegni mediante i vari software grafici che ormai riescono a riprodurre tecniche, effetti e sensazioni visive quasi indistinguibili da quelle tradizionali e con numerosi vantaggi pratici in più…ma certamente perdendo un contatto con i materiali veri che spesso mi trovo a rimpiangere.</p>
+
+<p>Essendo molto affascinato dal genere fantasy e fiabesco, ma anche da altri mondi come la natura, gli animali, la storia antica, l’archeologia, quando trovo un momento di respiro dal lavoro mi capita di realizzare qualche
+schizzo o disegno, finora soprattutto per diletto personale, e provare a calarmi in questi mondi.</p>
+
+<p>Ho sempre la speranza che anche questa mia parte di interessi possa trovare maggior spazio e riscontro anche nel mondo lavorativo…
 Vorrei ringraziare le persone che mi hanno dato la possibilità di cominciare il mio percorso disneyano di illustratore e di proseguirlo negli anni: Elisabetta Gnone, il compianto maestro Giovan Battista Carpi e Roberto Santillo e due super coppie di illustratori disneyani col quale ho avuto l’onore di collaborare in tantissimi lavori che sono : Sara Storino e Andrea Nicolucci e Maria Claudia Di Genova e Andrea</p>
 
-    </div>
-
-    <div class="">
-        <div class="text-right footer">
+                </div>
+            </div>
+            
+        </div>
+        
+        <div class="container-fluid mt-2">
+            <div class="text-right footer">
 	<a target="_blank" href="http://www.danielemoggia.it">credits</a>
 </div>
-    </div>
+        </div>
+
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <!--script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script-->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 
