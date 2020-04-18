@@ -57,6 +57,19 @@ h1{
   -o-background-size: cover;
   background-size: cover; }
 
+.sfondobn2 {
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background: url(../images/sfondobn2.png) no-repeat left top;
+  position: fixed;
+  z-index: -1;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; }
+
 .wrapper {
   display: flex;
   align-items: stretch; }
@@ -109,6 +122,9 @@ h1{
     -o-background-size: cover;
     background-size: cover; }
 
+  .my-container {
+    max-width: 500px; }
+
   .modal-mylg {
     min-width: 500px;
     margin: 0 auto; } }
@@ -125,6 +141,9 @@ h1{
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover; }
+
+  .my-container {
+    max-width: 650px; }
 
   .modal-mylg {
     min-width: 650px;
@@ -143,6 +162,9 @@ h1{
     -o-background-size: cover;
     background-size: cover; }
 
+  .my-container {
+    max-width: 850px; }
+
   .modal-mylg {
     min-width: 850px;
     margin: 0 auto; } }
@@ -159,6 +181,9 @@ h1{
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover; }
+
+  .my-container {
+    max-width: 1050px; }
 
   .modal-mylg {
     min-width: 1050px;
@@ -177,6 +202,9 @@ h1{
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover; }
+
+  .my-container {
+    max-width: 1050px; }
 
   .modal-mylg {
     min-width: 1220px;
@@ -411,7 +439,7 @@ a.article:hover {
   transition: all 0.3s; }
 
 .my-container {
-  margin-top: 5rem;
+  /*     margin-top: 5rem; */
   display: inline-flex;
   flex-flow: row-reverse wrap; }
 
@@ -419,19 +447,27 @@ a.article:hover {
   max-width: 650px;
   display: inline-flex;
   flex-flow: row wrap;
-  justify-content: flex-end;
+  justify-content: space-around;
   align-items: flex-end; }
 
+.myul-container {
+  max-width: 950px;
+  display: inline-flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  align-content: space-between;
+  align-items: center; }
+
 .myul-item {
-  margin: 2rem 1rem; }
+  margin: .5rem 0.3rem; }
 
 .circle-img {
   margin: .5em auto;
   border-radius: 50%;
   min-width: 60px;
   min-height: 60px;
-  max-width: 130px;
-  max-height: 130px;
+  max-width: 160px;
+  max-height: 160px;
   border: 1px solid #ddd; }
 
 .circle-img:hover {
