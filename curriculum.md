@@ -37,11 +37,11 @@ E poi varie altre commissioni per pubblicità, illustrazioni di libri, o studi p
 
 Inoltre alcune illustrazioni per eventi privati (battesimo, comunione, matrimonio) e una copertina per un cd musicale del chitarrista genovese Giangi Sainato
 
-La mia tecnica artistica preferita sarebbe la pittura ad olio poi, per ragioni pratiche, ho imparato ad utilizzare l'aerografo di cui mi sono servito soprattutto nei primi anni di lavoro. In seguito seguendo un organizzazione del
-lavoro, soprattuto in ambito Disney, molto separata e di specializzazione per ciascuna fase, mi sono sempre più dedicato alla realizzazione delle parti di progettazione dell'illustrazione/fumetto ( concept, rough) e a quella della
-pulizia e definizione delle immagini a matita (clean-up), lasciando più spesso ad altri le fasi successive di inchiostrazione e colorazione.
+La mia **tecnica artistica** preferita sarebbe la **pittura ad olio** poi, per ragioni pratiche, ho imparato ad utilizzare l'aerografo di cui mi sono servito soprattutto nei primi anni di lavoro. In seguito seguendo un organizzazione del
+lavoro, soprattuto in ambito Disney, molto separata e di specializzazione per ciascuna fase, mi sono sempre più dedicato alla realizzazione delle parti di progettazione dell'illustrazione/fumetto (**concept, rough**) e a quella della
+pulizia e definizione delle immagini a **matita (clean-up)**, lasciando più spesso ad altri le fasi successive di inchiostrazione e colorazione.
 Nonostante la mia formazione, e gran parte della mia professione, si siano basate sulle tecniche artistiche tradizionali di pittura e disegno, negli ultimi anni, prendendo sempre più piede l'uso del computer, ho fatto cadere
-le mie perplessità e resistenze sull’uso delle tecniche digitali e mi sono avvicinato sempre più all’uso della tavoletta grafica e del display con penna interattiva, realizzando i miei disegni mediante i vari software grafici che ormai riescono a riprodurre tecniche, effetti e sensazioni visive quasi indistinguibili da quelle tradizionali e con numerosi vantaggi pratici in più...ma certamente perdendo un contatto con i materiali veri che spesso mi trovo a rimpiangere.
+le mie perplessità e resistenze sull’uso delle **tecniche digitali** e mi sono avvicinato sempre più all’uso della tavoletta grafica e del display con penna interattiva, realizzando i miei disegni mediante i vari software grafici che ormai riescono a riprodurre tecniche, effetti e sensazioni visive quasi indistinguibili da quelle tradizionali e con numerosi vantaggi pratici in più...ma certamente perdendo un contatto con i materiali veri che spesso mi trovo a rimpiangere.
 
 Essendo molto affascinato dal genere fantasy e fiabesco, ma anche da altri mondi come la natura, gli animali, la storia antica, l'archeologia, quando trovo un momento di respiro dal lavoro mi capita di realizzare qualche
 schizzo o disegno, finora soprattutto per diletto personale, e provare a calarmi in questi mondi.
