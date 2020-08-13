@@ -1,0 +1,8 @@
+- name : Eventi privati 1
+  url : eventi_privati/01_varie_eventi_privati
+  descrizione : qui va la descrizione della foto se necessario
+  category : eventi privati
+- name : Eventi privati 2
+  url : eventi_privati/02_varie_eventi_privati
+  descrizione : qui va la descrizione della foto se necessario
+  category : eventi privati
