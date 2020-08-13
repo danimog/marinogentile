@@ -1,0 +1,69 @@
+---
+layout: picture
+title: Pittura a olio
+---
+<h4>Pittura a olio</h4>
+<hr>
+
+<div class="row">
+  
+{% for item in site.data.pittura_olio %}
+
+        <figure class="col-md-3">
+
+            <img src="{{site.baseurl}}/assets/images/lavori/{{item.url}}.jpg" alt="{{item.name}}" data-titolo="{{ item.name }}" data-nome="{{item.descrizione}}" class="img-fluid img-thumbnail" data-toggle="modal" data-target="#exampleModal" data-whatever="{{site.baseurl}}/assets/images/lavori/{{item.url}}.jpg">
+          
+          <figcaption>
+            {{ item.name }}
+          </figcaption>
+        </figure>
+
+    <!--button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal" data-whatever="{{site.baseurl}}/assets/images/lavori/{{item.url}}.jpg">Apri foto: {{ item.url }}</button-->
+
+  {% endfor %}
+
+
+</div>
+
+<!-- DEFINIZIONE DELLA FINESTA MODALE -->
+
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-mylg" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title text-center" id="exampleModalLabel">Titolo Foto</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body text-center">
+        <img src="" style="width: 100%; height: auto;" />
+        <!--p></p--> <!-- eventuale testo da inserire come descrizione della foto -->
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+
+
+<!-- SCRIPT FINESTRA MODALE -->
+<script>
+
+//$(document).on('show.bs.modal','#exampleModal', function (event) {  
+$('#exampleModal').on('show.bs.modal', function (event) {
+  var button = $(event.relatedTarget) // Button that triggered the modal
+  var recipient = button.data('whatever') // Extract info from data-* attributes
+  var nome = button.data('nome')
+  var titolo = button.data('titolo')
+  // If necessary, you could initiate an AJAX request here (and then do the updating in a callback).
+  // Update the modal's content. We'll use jQuery here, but you could use a data binding library or other methods instead.
+  var modal = $(this)
+  modal.find('.modal-title').text(titolo)
+  modal.find('.modal-body p').text(nome)
+  modal.find('.modal-body img').attr('src', recipient)
+})
+</script>
