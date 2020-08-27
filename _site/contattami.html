@@ -15,7 +15,7 @@
 
     <link rel="stylesheet" href="/assets/css/styles.css">
     
-    <title>Eventi Privati</title>
+    <title></title>
   </head>
   <body>
     <div class="container-fluid m-0 p-0" style="background: url('/assets/images/sfondobn.png') no-repeat left top; z-index: -1;">
@@ -75,84 +75,17 @@
                 </nav>
 
                 <div class="container">      
-                    <h4>Eventi privati</h4>
-<hr>
+                    <p>I miei contatti:</p>
 
-<div class="row">
-  
+<p>Marino Gentile</p>
+<ul>
+  <li>Passo Sepozzo Inferiore 5</li>
+  <li>16030 Avegno (GE)</li>
+  <li>abitazione-studio tel. 0185 781070</li>
+  <li>cell. 349 4709843</li>
+  <li>e-mail: <a href="mailto:marino_gentile@libero.it">marino_gentile@libero.it</a>marino_gentile@libero.it</li>
+</ul>
 
-
-        <figure class="col-md-3">
-
-            <img src="/assets/images/lavori/eventi_privati/01_varie_eventi_privati.jpg" alt="Eventi privati 1" data-titolo="Eventi privati 1" data-nome="qui va la descrizione della foto se necessario" class="img-fluid img-thumbnail" data-toggle="modal" data-target="#exampleModal" data-whatever="/assets/images/lavori/eventi_privati/01_varie_eventi_privati.jpg">
-          
-          <figcaption>
-            Eventi privati 1
-          </figcaption>
-        </figure>
-
-    <!--button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal" data-whatever="/assets/images/lavori/eventi_privati/01_varie_eventi_privati.jpg">Apri foto: eventi_privati/01_varie_eventi_privati</button-->
-
-  
-
-        <figure class="col-md-3">
-
-            <img src="/assets/images/lavori/eventi_privati/02_varie_eventi_privati.jpg" alt="Eventi privati 2" data-titolo="Eventi privati 2" data-nome="qui va la descrizione della foto se necessario" class="img-fluid img-thumbnail" data-toggle="modal" data-target="#exampleModal" data-whatever="/assets/images/lavori/eventi_privati/02_varie_eventi_privati.jpg">
-          
-          <figcaption>
-            Eventi privati 2
-          </figcaption>
-        </figure>
-
-    <!--button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal" data-whatever="/assets/images/lavori/eventi_privati/02_varie_eventi_privati.jpg">Apri foto: eventi_privati/02_varie_eventi_privati</button-->
-
-  
-
-
-</div>
-
-<!-- DEFINIZIONE DELLA FINESTA MODALE -->
-
-<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-  <div class="modal-dialog modal-mylg" role="document">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title text-center" id="exampleModalLabel">Titolo Foto</h5>
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
-      </div>
-      <div class="modal-body text-center">
-        <img src="" style="width: 100%; height: auto;" />
-        <!--p></p--> <!-- eventuale testo da inserire come descrizione della foto -->
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-      </div>
-    </div>
-  </div>
-</div>
-
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-
-
-<!-- SCRIPT FINESTRA MODALE -->
-<script>
-
-//$(document).on('show.bs.modal','#exampleModal', function (event) {  
-$('#exampleModal').on('show.bs.modal', function (event) {
-  var button = $(event.relatedTarget) // Button that triggered the modal
-  var recipient = button.data('whatever') // Extract info from data-* attributes
-  var nome = button.data('nome')
-  var titolo = button.data('titolo')
-  // If necessary, you could initiate an AJAX request here (and then do the updating in a callback).
-  // Update the modal's content. We'll use jQuery here, but you could use a data binding library or other methods instead.
-  var modal = $(this)
-  modal.find('.modal-title').text(titolo)
-  modal.find('.modal-body p').text(nome)
-  modal.find('.modal-body img').attr('src', recipient)
-})
-</script>
                 </div>
             </div>
             
