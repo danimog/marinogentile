@@ -126,6 +126,9 @@ h1{
 .myul-item {
   flex: 1 0 21%; }
 
+.modal-footer {
+  justify-content: center; }
+
 /**
 * Breakpoint utili alla modifica delle immagini
 */
