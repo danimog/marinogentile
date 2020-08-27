@@ -70,7 +70,9 @@ h1{
   background-size: cover;
   background-color: rgba(255, 255, 255, 0.7);
   background-blend-mode: overlay;
-  background-repeat: no-repeat; }
+  background-repeat: no-repeat;
+  padding-left: 0;
+  /* metto a zero per evitare di spostare il sidebar nella versione mobile*/ }
 
 .wrapper {
   display: flex;
@@ -146,7 +148,13 @@ h1{
 
   .modal-mylg {
     min-width: 500px;
-    margin: 0 auto; } }
+    margin: 0 auto; }
+
+  #sidebar p {
+    font-size: 75%; }
+
+  .sidebar-link {
+    font-size: 65%; } }
 @media (min-width: 576px) and (max-width: 767.98px) {
   .sfondo {
     width: 100%;
